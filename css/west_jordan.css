@@ -8,7 +8,7 @@ body{background-color: #123041;
 
 }
 .hero {  
-    background-image: url('../swim_images/Indoor_Swimming_Pool.png');
+    background-image: url('../images/swim_images/Indoor_Swimming_Pool.png');
     background-color: rgb(0, 129, 129);  
     height: 40vh; /* Adjust as needed */  
     background-size: 100%;  
@@ -20,8 +20,10 @@ body{background-color: #123041;
     color: rgb(255, 255, 255);  
     text-align: center;  
   }
-h1 {
+.hero-txt{
   background-color: black;
+}
+h1 {
   font-family: 'Poppins', sans-serif;
 }
 ul{
@@ -75,6 +77,15 @@ li.navbar a:hover{
   overflow: hidden; 
 
 }
+.big-square{
+  width: 450px;  
+  height: auto;  
+  background-color:#246082 ; 
+
+  justify-content: center; /* Centers horizontally */  
+  align-items: center; /* Centers vertically */  
+  overflow: hidden; 
+}
 .square2{
   width: 220px;
   height: auto;
@@ -125,8 +136,9 @@ h3{
   border: #c4d8e2;
   border-radius: 20px;
   font-size: medium;
-  padding-top: 1%;
+  padding-top: 1.5%;
   padding-bottom: 1%;
+  margin-top: 1%;
 }
 button:hover{
   background-color: #76B4D8;
