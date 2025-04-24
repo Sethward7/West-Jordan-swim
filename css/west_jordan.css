@@ -150,3 +150,66 @@ footer{
   text-align: center;
 
 }
+#logo{
+  width: 10%;
+  height: auto;
+  padding-left: 40%;
+}
+/* Responsive design for screens smaller than 768px (tablets and phones) */
+@media (max-width: 768px) {
+  /* Navigation bar */
+  ul.navbar {
+      flex-direction: column; /* Stack navbar items vertically */
+      align-items: center;
+  }
+  li.navbar {
+      float: none; /* Remove float for vertical stacking */
+      width: 100%; /* Make navbar items full width */
+  }
+
+  /* Hero section */
+  .hero {
+      height: auto; /* Allow hero section to adjust height */
+      padding: 20px; /* Add padding for better spacing */
+      background-size: cover; /* Ensure background image scales properly */
+  }
+  .hero h1 {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  /* Containers */
+  .container, .container2 {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items */
+  }
+
+  /* Squares */
+  .square, .square2 {
+      width: 90%; /* Adjust width for smaller screens */
+      margin-bottom: 20px; /* Add spacing between items */
+  }
+
+  /* Images */
+  .small-image {
+      width: 80%; /* Scale images for smaller screens */
+      padding-left: 0; /* Remove left padding */
+  }
+  .crop-container {
+      width: 90%; /* Adjust crop container width */
+      height: auto; /* Allow height to adjust */
+  }
+
+  /* Buttons */
+  .butt {
+      left: 0; /* Center buttons */
+      transform: translateX(0); /* Reset position */
+      width: 100%; /* Make buttons full width */
+      margin: 10px 0; /* Add spacing */
+  }
+
+  /* Footer */
+  #logo {
+      width: 20%; /* Adjust logo size for smaller screens */
+      padding-left: 0; /* Center logo */
+  }
+}
